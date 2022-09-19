@@ -33,7 +33,7 @@ class BlogList extends Component {
     return (
       <div className="blogs-list-container">
         {isLoading ? (
-          <div>
+          <div testid="loader">
             <Loader type="TailSpin" color="#00bfff" height={50} width={50} />
           </div>
         ) : (
@@ -50,4 +50,4 @@ class BlogList extends Component {
 
 export default BlogList
 
-// line 36 testid="loder"
+// line 36

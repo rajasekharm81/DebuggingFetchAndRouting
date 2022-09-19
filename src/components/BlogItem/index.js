@@ -8,7 +8,7 @@ const BlogItem = props => {
 
   return (
     <li className="blog-item">
-      <Link to={`/blogs/:${id}`} className="blog-item-link">
+      <Link to={`/blogs/${id}`} className="blog-item-link">
         <div className="blog-item-container">
           <img className="blog-item-image" src={imageUrl} alt={`item${id}`} />
           <div className="blog-item-info">

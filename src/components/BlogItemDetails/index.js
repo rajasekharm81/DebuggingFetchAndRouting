@@ -51,7 +51,7 @@ class BlogItemDetails extends Component {
     return (
       <div className="blog-container">
         {isLoading ? (
-          <div>
+          <div testid="loader">
             <Loader type="TailSpin" color="#00bfff" height={50} width={50} />
           </div>
         ) : (
@@ -64,4 +64,4 @@ class BlogItemDetails extends Component {
 
 export default BlogItemDetails
 
-// testid="loader" line 54
+// line 54
